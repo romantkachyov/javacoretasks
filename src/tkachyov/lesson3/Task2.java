@@ -7,8 +7,8 @@ public class Task2 {
         b = 3;
         c = 1;
         if (a+b > c && b+c > a && a+c > b) {
-                    System.out.println("Треугольник существует");
-                }
+            System.out.println("Треугольник существует");
+        }
         else {
             System.out.println("Треугольник не существует");
         }
