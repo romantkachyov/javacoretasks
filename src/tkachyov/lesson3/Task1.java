@@ -2,13 +2,13 @@ package tkachyov.lesson3;
 
 public class Task1 {
     public static void main(String[] args) {
-        int value = -123;
+        int value = 5;
         String valueType;
 
         if (value > 0) {
-            valueType = value + " - положительное число";
+            valueType = value + " - положительное ";
         } else {
-            valueType = value + " - отрицательное число";
+            valueType = value + " - отрицательное ";
         }
         int count = 0;
 
@@ -18,15 +18,15 @@ public class Task1 {
 
         switch (count) {
             case 1: {
-                System.out.println(valueType + ", " + "однозначное число.");
+                System.out.println(valueType + "однозначное число.");
                 break;
             }
             case 2: {
-                System.out.println(valueType + ", " + "двухзначное число число.");
+                System.out.println(valueType + "двухзначное число.");
                 break;
             }
             case 3: {
-                System.out.println(valueType + ", " + "трехзначное число.");
+                System.out.println(valueType + "трехзначное число.");
                 break;
             }
             default: {
