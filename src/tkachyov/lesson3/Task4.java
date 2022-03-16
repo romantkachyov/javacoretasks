@@ -3,9 +3,9 @@ package tkachyov.lesson3;
 public class Task4 {
     public static void main(String[] args) {
         int a,b,c;
-        a=-6;
-        b=-5;
-        c=-3;
+        a=6;
+        b=5;
+        c=3;
         int positive = 0;
         if (a>0){
             positive++;}
